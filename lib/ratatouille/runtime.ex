@@ -234,7 +234,7 @@ defmodule Ratatouille.Runtime do
 
     Logger.error(error_msg)
 
-    Logger.warn(
+    Logger.warning(
       "The Ratatouille termbox window was automatically closed due " <>
         "to an error (you may need to quit Erlang manually)."
     )

@@ -2,7 +2,7 @@ defmodule Ratatouille.Renderer.Cells do
   @moduledoc """
   Functions for working with canvas cells.
   """
-  use Bitwise
+  import Bitwise
 
   alias Ratatouille.Renderer.Attributes
 

@@ -1,6 +1,6 @@
 # This file is responsible for configuring your application
 # and its dependencies with the aid of the Mix.Config module.
-use Mix.Config
+import Config
 
 # This configuration is loaded before any dependency and is restricted
 # to this project. If another project depends on this project, this
@@ -9,7 +9,6 @@ use Mix.Config
 # 3rd-party users, it should be done in your "mix.exs" file.
 
 config :logger, level: :debug
-
 # You can configure your application as:
 #
 #     config :ratatouille, key: :value
