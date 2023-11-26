@@ -11,7 +11,7 @@ defmodule Ratatouille.Window do
   alias Ratatouille.Renderer.{Canvas, Element}
 
   @default_bindings ExTermbox.Bindings
-  @default_input_mode Constants.input_mode(:esc)
+  @default_input_mode Constants.input_mode(:esc_with_mouse)
   @default_output_mode Constants.output_mode(:normal)
 
   ### Client
