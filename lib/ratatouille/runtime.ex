@@ -53,8 +53,6 @@ defmodule Ratatouille.Runtime do
   @default_interval_ms 500
 
   @default_quit_events [
-    {:ch, ?q},
-    {:ch, ?Q},
     {:key, key(:ctrl_c)}
   ]
 
